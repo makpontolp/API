@@ -13,6 +13,3 @@ for item in grupos_slack_chanels:
     if item['num_members'] < 2:
         print('ID: {}, PESSOAS: {}, ARQUIVADO: {}, NOME: {},'.format(item['id'],item['num_members'],item['is_archived'],item['name']))
 
-#int(grupos_slack['channels'])
-#for grupo in gruposels_slack:
-#    print(grupo)

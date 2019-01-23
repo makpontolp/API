@@ -14,4 +14,3 @@ for item in grupos_slack_chanels:
 
         print(sc.api_call("channels.archive",channel=item['id']))
 
-   # print('ID: {}, PESSOAS: {}, NOME: {}'.format(item['id'],item['num_members'],item['name']))
