@@ -1,6 +1,6 @@
-from slackclient import SlackClient
+#from slackclient import SlackClient
 import os
-import requests
+import requests as r
 import json
 
 
@@ -8,7 +8,6 @@ import json
 token = str(input('Insira aqui o seu TOKEN de integracao com o slack: '))  # type: str
 #slack_token = os.environ["SLACK_API_TOKEN"] = token
 #sc = SlackClient(slack_token)
-r = requests
 #data = {'token': token,
 #        'excluded_archived': 'true'}
 #
